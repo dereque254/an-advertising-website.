@@ -1,0 +1,179 @@
+cover {
+    background-size: cover !important;
+}
+
+.dt {
+    display: table;
+}
+
+.dtc {
+    display: table-cell;
+}
+
+.athelas {
+    font-family: athelas, georgia, serif;
+}
+
+.i {
+    font-style: italic;
+}
+
+.fs-normal {
+    font-style: normal;
+}
+
+.fw1 {
+    font-weight: 100;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.tracked {
+    letter-spacing: .1em;
+}
+
+.lh-title {
+    line-height: 1.25;
+}
+
+.lh-copy {
+    line-height: 1.5;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.white-70 {
+    color: rgba(255, 255, 255, .7);
+}
+
+.white-60 {
+    color: rgba(255, 255, 255, .6);
+}
+
+.white {
+    color: #fff;
+}
+
+.bg-dark-gray {
+    background-color: #333;
+}
+
+.pv5 {
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+}
+
+.ph0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.ph2 {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.mb2 {
+    margin-bottom: .5rem;
+}
+
+.mh0 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.tc {
+    text-align: center;
+}
+
+.ttu {
+    text-transform: uppercase;
+}
+
+.f1 {
+    font-size: 3rem;
+}
+.f2{
+    font-size: 1.5rem;
+}
+.f4 {
+    font-size: 1.25rem;
+}
+
+.f5 {
+    font-size: .8rem;
+}
+
+.f6 {
+    font-size: .875rem;
+}
+
+.measure {
+    max-width: 30em;
+}
+
+.measure-wide {
+    max-width: 34em;
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.v-mid {
+    vertical-align: middle;
+}
+
+#home{
+    background: url(images/boat2.jpg) no-repeat center;
+}
+#about{
+    background: url(images/boat1.jpg) no-repeat center;
+}
+#contact{
+    background: url(images/basketballbnw.jpg) no-repeat center;
+}
+#projects{
+    background: url(images/boat4.jpg) no-repeat center;
+}
+@media screen and (min-width: 60em) {
+    .f-headline-l {
+        font-size: 6rem;
+    }
+}
+#aboutTitle, #projectTitle, #contactTitle{
+    cursor: pointer;
+    text-shadow: 0 0 3px rgba(200,200,200,0.5),rgba(200,200,200,0.5);
+}
+#aboutContent, #aboutContentLinks, #projectContent, #projectContentLinks,#contactContent, #contactContentLinks {
+    display: none;
+}
+#aboutContentShow, #projectContentShow, #contactContentShow {
+    display: inline-block;
+}
+#aboutContentLinksShow, #projectContentLinksShow, #contactContentLinkShow{
+    padding-top: 0rem;
+    display: "";
+}
+.transparent {
+    background-color: rgba(200,200,200,0.5);
+  }
+a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+.f-headline-l{
+    margin-bottom: 0rem;
+}
